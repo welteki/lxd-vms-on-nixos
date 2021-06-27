@@ -1,4 +1,6 @@
-with import <nixpkgs> {};
+{ pkgs, ... }:
+
+with pkgs;
 
 # with this configuration, LXD will only support secureboot, which is the default
 

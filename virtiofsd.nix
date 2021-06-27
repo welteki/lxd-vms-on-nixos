@@ -1,4 +1,6 @@
-with import <nixpkgs> {};
+{ pkgs, ... }:
+
+with pkgs;
 
 stdenv.mkDerivation rec {
   name = "virtiofsd";
